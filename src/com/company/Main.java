@@ -74,6 +74,16 @@ public class Main {
             dog.takeForAWalk(10);
         }
 
+        System.out.println();
+        System.out.println("-----------------");
+        System.out.println();
 
+        Car chrysler = new Car();
+        chrysler.capacity = 4.0;
+        chrysler.mark = "Chrysler";
+        chrysler.model = "Tow & Country";
+        chrysler.engine = "Petrol";
+
+        System.out.println(chrysler.mark + " " + chrysler.model + ", " + chrysler.engine + " " + chrysler.capacity);
     }
 }

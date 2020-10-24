@@ -16,11 +16,13 @@ public class Animal {
     }
 
     public void feed(Double foodWeight) {  //void czyli nic nie zwaraca  - zwraca pusteke
-        if (this.weight <= 0) {
-            System.out.println(this.name + "Nie żyje, wiec nei da rady go nakarmić");
-        } else {
+        if (this.isAlive) {
             weight += foodWeight;
             System.out.println("Dziekuje za jedzenie, aktualna waga " + weight);
+
+        } else {
+            isAlive = false;
+            System.out.println(this.name + "Nie żyje, wiec nei da rady go nakarmić");
         }
     }
 
@@ -30,10 +32,11 @@ public class Animal {
             double losingWeight = 0.1 * time;
             weight -= losingWeight;
             System.out.println("Wyprowadzam psa na spacer, jego waga aktualna  " + weight);
-
+            if (this.weight < MIN_WEIGHT) {
+                this.isAlive = false;
+            }
         } else {
             System.out.println(this.name + "Nie żyje, wiec nie mozna go wyprowadzic na spacer");
-            this.isAlive = false;
         }
     }
 
