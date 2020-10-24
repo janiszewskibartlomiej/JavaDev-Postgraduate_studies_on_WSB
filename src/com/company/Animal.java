@@ -43,7 +43,13 @@ public class Animal {
     Double getWeight() {
         return weight;
     }
+
+    void setWeight(Double newWeight) {
+        this.weight = newWeight;
+    }
 }
+
+
 
 /*
  * dobrze jest zrobic szkielet

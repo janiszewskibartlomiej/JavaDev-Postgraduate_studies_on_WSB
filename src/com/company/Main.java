@@ -78,12 +78,10 @@ public class Main {
         System.out.println("-----------------");
         System.out.println();
 
-        Car chrysler = new Car();
+        Car chrysler = new Car("Chrysler", "Tow & Country", 2008);
         chrysler.capacity = 4.0;
-        chrysler.mark = "Chrysler";
-        chrysler.model = "Tow & Country";
         chrysler.engine = "Petrol";
 
-        System.out.println(chrysler.mark + " " + chrysler.model + ", " + chrysler.engine + " " + chrysler.capacity);
+        System.out.println(chrysler.mark + " " + chrysler.model + " " + chrysler.year + ", " + chrysler.engine + " " + chrysler.capacity);
     }
 }
