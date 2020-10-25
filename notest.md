@@ -4,7 +4,7 @@ klasy to jakby formularz statystyczny [szablon] ktory morzemy owielac milion raz
 
 obiekt to wypelniony formularz, klasa wypelniona danymi jest obiektem
 
-klasa bez danych jest klasa
+Obiekt  bez danych jest klasa
 
 aplikacjia - API + baza polaczenie hibernate 
 
@@ -22,3 +22,5 @@ getery sa dobre abyy np wrzucac info o userze ktory pobiera kiedy i ile razy
 mozemy przechowywac dane w inny sposob niz przekazujemy uzytkownikowi
 
 Nierobimy czegos na wyrost jezlei ktos ma miec dostep do zminnej to nie ma sensu robic getery i setery, natomiast jak mamy jkas logike w set i get to ma sens to stosowac
+
+Jedna zmienna ma robić tyłka jedna rzecz. Np jak zmienna weight trzyma wagę to nie powinna również odpowiadać czy np pies żyje bo weight <=0, lepiej jest dodac kolejna zmienna isALive i zmieniać jej stan!!! 
