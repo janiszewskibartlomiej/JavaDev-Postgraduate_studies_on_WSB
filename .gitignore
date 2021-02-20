@@ -54,6 +54,7 @@ out/
 .idea_modules/
 
 # JIRA plugin
+*.mp4
 atlassian-ide-plugin.xml
 
 # Cursive Clojure plugin
