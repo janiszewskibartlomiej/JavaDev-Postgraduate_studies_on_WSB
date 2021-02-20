@@ -4,7 +4,7 @@ klasy to jakby formularz statystyczny [szablon] ktory morzemy owielac milion raz
 
 obiekt to wypelniony formularz, klasa wypelniona danymi jest obiektem
 
-klasa bez danych jest klasa
+Obiekt  bez danych jest klasa
 
 aplikacjia - API + baza polaczenie hibernate 
 
@@ -84,4 +84,6 @@ przeciazanie jest w jednej klasie i dodatkowe parametry lub rozne
 
 a przyslanianie jest ta sama metoda - nazwa, i parametry oraz retunt to to samo
 
+
+Jedna zmienna ma robić tyłka jedna rzecz. Np jak zmienna weight trzyma wagę to nie powinna również odpowiadać czy np pies żyje bo weight <=0, lepiej jest dodac kolejna zmienna isALive i zmieniać jej stan!!! 
 
